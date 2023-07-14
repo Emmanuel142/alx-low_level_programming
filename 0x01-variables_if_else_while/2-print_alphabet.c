@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program generates alphabets in lowercases
+ * Description: This program print a-z lowercase
  *
  * Return: Always 0 (Success)
  */

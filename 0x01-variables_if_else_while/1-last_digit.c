@@ -7,7 +7,7 @@
  *
  * Description: This program generates a random number
  * and write if it greater or lesser than 5
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
