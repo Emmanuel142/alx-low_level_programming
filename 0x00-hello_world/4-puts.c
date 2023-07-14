@@ -1,5 +1,10 @@
 #include <stdio.h>
-/*this is the starting point of all c code*/
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function uses puts to print on the screen
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	/*This code print an output to the screeen*/
