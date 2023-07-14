@@ -3,7 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/** main - Entry point of the program
+/*
+ * main - Entry point of the program
  * Description: This code generates a random number and checks
  * if the number generated is positive or negative.
  * Return: Always 0 (Success)
