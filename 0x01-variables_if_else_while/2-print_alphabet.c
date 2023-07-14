@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point of the program
+ *
+ * Description: This program generates alphabets in lowercases
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
