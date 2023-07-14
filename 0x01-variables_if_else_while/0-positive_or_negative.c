@@ -4,8 +4,8 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /** main - Entry point of the program
- * Description: This code generate a random number and check
- * if the number generated is positive or negative
+ * Description: This code generates a random number and checks
+ * if the number generated is positive or negative.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,11 +14,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(n > 0)
-	printf("is positive\n");
-	else if(n==0)
-	printf("is zero\n");
+	if (n > 0)
+	printf("%d is positive\n", n);
+	else if (n == 0)
+	printf("%d is zero\n", n);
 	else
-	printf("is negative\n");
+	printf("%d is negative\n", n);
 	return (0);
 }
