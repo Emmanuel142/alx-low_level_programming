@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$(gcc -E *.c) > c
+CFILE="*.c";gcc -E $CFILE > c
