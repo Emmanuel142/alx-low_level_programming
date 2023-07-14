@@ -2,12 +2,15 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
-/*
+/**
  * main - Entry point of the program
- * Description: This code generates a random number and checks
- * if the number generated is positive or negative.
+ *
+ * Description: This program generates a random number and checks
+ * if the number generated is positive, negative, or zero. It then
+ * prints the corresponding message.
+ *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
