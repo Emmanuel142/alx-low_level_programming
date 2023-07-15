@@ -3,7 +3,7 @@
  * main - Staring point of the program
  *
  * Description: This function print formatted combination of decimal digit
- * two digit should not be joined together and reverse of a letter should 
+ * two digit should not be joined together and reverse of a letter should
  * not be printed
  *Return: Always 0 (Success)
 */
