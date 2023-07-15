@@ -21,9 +21,9 @@ int main(void)
 			continue;
 		else if (i == 113)
 			continue;
-		else {
+		else
 			putchar(i);
-		}
+
 	}
 	putchar(n);
 
