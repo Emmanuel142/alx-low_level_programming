@@ -10,6 +10,7 @@ int main(void)
 	int n;
 
 	n = 10;
+	i = 97;
 
 	for (i = 97; i < 122; i++)
 		_putchar(i);
