@@ -1,5 +1,5 @@
 #include "main.h"
-void print_alphabet_x10(void);
+void print_alphabet(void);
 /**
  * main - starting point of the code
  * Description: This code write a - z
