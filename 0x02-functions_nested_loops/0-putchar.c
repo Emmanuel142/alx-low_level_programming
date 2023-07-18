@@ -8,15 +8,25 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int a, b, c, d, e, f, g, h;
+
+	a = 95;
+	b = 112;
+	c = 117;
+	d = 116;
+	e = 99;
+	f = 104;
+	g = 97;
+	h = 114;
+	_putchar(a);
+	_putchar(b);
+	_putchar(c);
+	_putchar(d);
+	_putchar(e);
+	_putchar(f);
+	_putchar(g);
+	_putchar(h);
+	_putchar(10);
 
 	return (0);
 }
