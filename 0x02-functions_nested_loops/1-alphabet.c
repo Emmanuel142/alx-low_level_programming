@@ -15,6 +15,9 @@ int main(void)
     return 0;
 }
 
+/**
+ * print_alphabet - Prints the lowercase alphabets from 'a' to 'z'
+ */
 void print_alphabet(void)
 {
     int i;
