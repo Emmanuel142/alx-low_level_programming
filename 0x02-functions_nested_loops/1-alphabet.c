@@ -19,7 +19,7 @@ void print_alphabet(void)
 	n = 10;
 	i = 97;
 
-	for (i = 97; i < 122; i++)
+	for (i = 97; i <= 122; i++)
 		_putchar(i);
 	_putchar(n);
 }
