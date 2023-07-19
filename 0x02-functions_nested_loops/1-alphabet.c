@@ -1,31 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-
-void print_alphabet(void);
 
 /**
- * main - Starting point of the code
- *
- * Description: This code writes the lowercase alphabets from 'a' to 'z'.
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-  void print_alphabet();
-    return 0;
-}
-
-/**
- * print_alphabet - Prints the lowercase alphabets from 'a' to 'z'
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
 void print_alphabet(void)
 {
-    int i;
+	char letter;
 
-    for (i = 'a'; i <= 'z'; i++)
-        putchar(i);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
 
-    putchar('\n');
+	_putchar('\n');
 }
-
