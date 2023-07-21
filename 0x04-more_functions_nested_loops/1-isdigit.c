@@ -3,6 +3,7 @@
 
 /**
  * _isdigit - check if c is a number between 0 - 9
+ * @c: inpupt of the function
  * Return: 1 if isdigit and 0 if not
  */
 int _isdigit(int c)
