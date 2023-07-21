@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * 1-isdigit - check if c is a number between 0 - 9
+ * _isdigit - check if c is a number between 0 - 9
  * Return: 1 if isdigit and 0 if not
  */
 int _isdigit(int c)
