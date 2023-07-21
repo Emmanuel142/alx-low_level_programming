@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- *
+ * print_most_number - This function print 1-9 with the exemption of 2 and 4
+ * Return: No return value
  */
 void print_most_numbers(void)
 {
