@@ -25,6 +25,6 @@ int main(void)
 	d += 1;
 	e += 32;
 
-	printf("%c%c%c%c%d%c%x", a, b, c, d % 10, d, e, d / 2);
+	printf("%c%c%c%d%d%c%c", a, b, c, d % 10, d, e, d / 2);
 	return (0);
 }
