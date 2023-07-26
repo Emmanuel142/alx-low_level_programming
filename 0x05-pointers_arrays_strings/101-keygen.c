@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int a, b, c, d, e;
+	int a, i, b, c, d, e;
 
 	srand(time(0));
 
@@ -17,14 +17,15 @@ int main(void)
 	b = rand() % 26;
 	c = rand() % 10;
 	d = rand() % 100;
-	e = rand() % 15;
+	e = rand() % 9;
 
 	a += 65;
 	b += 97;
 	c += 48;
 	d += 1;
-	e += 32;
+	e += 33;
 
-	printf("%c%c%c%d%d%c%c", a, b, c, d % 10, d, e, d / 2);
+	for (i = 0; i < 10; i++)
+		printf("%c%c%c%c%d%c", a, b, e, c, d % 10, e);
 	return (0);
 }
