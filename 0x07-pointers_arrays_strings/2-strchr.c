@@ -3,7 +3,7 @@ char *_strchr(char *s, char c);
 /**
  * _strchr - This function returns the first character it encounters
  * @s: The string checked for character occurence
- * @c: The
+ * @c: The character we are checking;for
  * Return: return the first occurence of character
  */
 char *_strchr(char *s, char c)
@@ -14,5 +14,5 @@ char *_strchr(char *s, char c)
 			return (s);
 		s++;
 	}
-	return (NULL);
+	return ('\0');
 }
