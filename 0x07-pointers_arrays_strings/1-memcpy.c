@@ -7,7 +7,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  * be stored
  * @src: The pointer to the source array
  * @n: The number of byte to copy fom the source array
- * Return - Return dest
+ * Return: Return dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
