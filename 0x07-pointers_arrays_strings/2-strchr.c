@@ -8,11 +8,9 @@ char *_strchr(char *s, char c);
  */
 char *_strchr(char *s, char c)
 {
-	int n;
-
 	while (*s != '\0')
 	{
-		if (s[n] == c)
+		if (*s == c)
 			return (s);
 		s++;
 	}
