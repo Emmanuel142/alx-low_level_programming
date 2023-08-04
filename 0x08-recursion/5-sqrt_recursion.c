@@ -24,10 +24,14 @@ int findIntegerSquareRoot(int n, int start, int end)
 }
 int _sqrt_recursion(int n)
 {
+	int start;
+	int end;
+
 	if (n < 0)
 		return (-1);
-	int start = 0;
-	int end = n;
+	
+	start = 0;
+	end = n;
 
 	return (findIntegerSquareRoot(n, start, end));
 }
