@@ -7,10 +7,9 @@
  */
 int _strlen(char *s)
 {
-	int len = 0;
 	if (*s == '\0')
-		return (len);
-	return _strlen(s + 1, len + 1);
+		return (0);
+	return 1 + _strlen(s + 1);
 }
 
 /**
