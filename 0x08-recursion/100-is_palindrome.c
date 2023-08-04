@@ -5,10 +5,8 @@
  * @s: The input string
  * Return: The length of the string
  */
-int _strlen(char *s)
+int _strlen(char *s, int len)
 {
-	int len = 0;
-
 	if (*s == '\0')
 		return (len);
 	return _strlen(s + 1, len + 1);
