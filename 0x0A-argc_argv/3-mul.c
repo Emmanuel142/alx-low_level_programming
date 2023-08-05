@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - this function multiply input form the command line
  * @argc: the argument count
@@ -13,9 +14,10 @@ int main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		for (n = 1; n < argc; n++)
-			i *= argv[n];
+			i *= atoi(argv[n]);
 		printf("%d\n", i);
 	}
 	else
 		printf("Error\n");
+	return (0);
 }
