@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-unsigned int strlen(char *str);
+unsigned int _strlen(char *str);
 /**
  * _strdup - Duplicate a string
  * @str: The string to duplicate
