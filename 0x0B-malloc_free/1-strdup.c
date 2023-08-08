@@ -2,6 +2,10 @@
 #include <stdlib.h>
 unsigned int strlen(char *str);
 /**
+ * _strdup - Duplicate a string
+ * @str: The string to duplicate
+ * Return: A pointer to the duplicated string, or NULL
+ * if memory allocation fails
  */
 char *_strdup(char *str)
 {
@@ -9,7 +13,7 @@ char *_strdup(char *str)
 	unsigned int size;
 	unsigned int i;
 
-	size = strlen(str);
+	size = _strlen(str);
 
 	if (size == 0)
 		return (NULL);
@@ -24,13 +28,19 @@ char *_strdup(char *str)
 	return (ptr);
 
 }
-unsigned int strlen(char *str)
+/**
+ * _strlen - get the size of a string
+ * @str: Pointer to the string
+ * Return: the size of the string
+ */
+unsigned int _strlen(char *str)
 {
 	unsigned int size = 0;
+
 	while (*str != '\0')
 	{
 		size++;
 		str++;
 	}
-	return (size)
+	return (size);
 }
