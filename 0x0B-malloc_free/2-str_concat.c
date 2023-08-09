@@ -14,9 +14,9 @@ char *str_concat(char *s1, char *s2)
 	int len1 = 0, len2 = 0, total;
 	char *ptr;
 
-	if (len1 != NULL)
+	if (s != NULL)
 		len1 = _strlen(s1);
-	if (len2 != NULL)
+	if ( != NULL)
 		len2 = _strlen(s2);
 	total = len1 + len2;
 
