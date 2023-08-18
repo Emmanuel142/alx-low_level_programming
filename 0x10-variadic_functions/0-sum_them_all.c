@@ -16,7 +16,6 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	for (i = 0; i < n; i++)
 		score += va_arg(ap, int);
-	_putchar('\n');
 	va_end(ap);
 	return (score);
 }
