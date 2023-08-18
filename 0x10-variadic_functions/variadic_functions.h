@@ -2,7 +2,6 @@
 #define _VARIADIC_FUNCTION_
 
 #include <stdarg.h>
-#include <unistd.h>
 #include <stdio.h>
 
 int _putchar(char c);
