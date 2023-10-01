@@ -8,10 +8,10 @@ int _sqrt_recursion(int n);
  * Return: square root of n
  */
 
-int findIntegerSquareRoot(int n, int start, int end)
+long int findIntegerSquareRoot(int n, int start, int end)
 {
-	int mid = start + (end - start) / 2;
-	int square = mid * mid;
+	long int mid = start + (end - start) / 2;
+	long int square = mid * mid;
 
 	if (start > end)
 		return (end);
