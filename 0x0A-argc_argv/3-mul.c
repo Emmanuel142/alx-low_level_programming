@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-/**
- * main - this function multiply input form the command line
- * @argc: the argument count
- * @argv: the argument vector
- * Return: Always 0
- */
-int main(int argc, char *argv[])
-{
-	int i = 1;
-	int n;
 
-	if (argc > 1)
+/**
+ * main - multiplies two numbers.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char **argv)
+{
+	int x, y;
+
+	if (argc < 3)
 	{
-		for (n = 1; n < argc; n++)
-			i *= atoi(argv[n]);
-		printf("%d\n", i);
-	}
-	else
 		printf("Error\n");
+		return (1);
+	}
+
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	printf("%d\n", x * y);
+
 	return (0);
 }
