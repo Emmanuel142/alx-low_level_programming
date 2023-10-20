@@ -1,4 +1,7 @@
 #include "list.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * print_list - Print the str contained in a single linked list
