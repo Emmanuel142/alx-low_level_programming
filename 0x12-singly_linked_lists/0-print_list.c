@@ -1,40 +1,29 @@
-#include "list.h"
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
+#include "lists.h"
 
 /**
- * print_list - Print the str contained in a single linked list
- * Description: This function prints the node in a linked list
- * and calculate all node in the list
- * @h: The head of the list
- * Return: The number of nodes in the linked list
+ * print_list - check the code for Holberton School students.
+ * @h: name of the list
+ * Return: the number of nodes.
  */
-
 size_t print_list(const list_t *h)
 {
-	list_t *temp = malloc(sizeof(list_t));
+	int count = 0;
 
-	count = 0;
-	temp = h;
-
-	if (temp == NULL)
+	while (h)
 	{
-		return;
-	}
-
-	while (temp != NULL)
-	{
-		len = strlen(temp->str);
-		if (len == 0)
+		if (h->str == NULL)
 		{
-			printf("[0] (nil)");
+			printf("[0] (nil)\n");
 		}
 		else
 		{
-			printf("[%d] %s", temp->len, temp->str);
+		printf("[%d] %s\n", h->len, h->str);
 		}
-		temp = temp->next;
 		count++;
+		h = h->next;
 	}
+	return (count);
 }
